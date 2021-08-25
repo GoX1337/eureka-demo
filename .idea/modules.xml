@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" filepath="$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/eureka-demo.iml" filepath="$PROJECT_DIR$/.idea/eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo.iml" filepath="$PROJECT_DIR$/eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo-api/eureka-demo-api.iml" filepath="$PROJECT_DIR$/eureka-demo-api/eureka-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" filepath="$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" />
     </modules>
   </component>

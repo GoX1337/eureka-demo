@@ -12,6 +12,7 @@
     <modules>
         <module>eureka-server-demo</module>
         <module>eureka-client-demo</module>
+        <module>eureka-demo-api</module>
     </modules>
 
 </project>

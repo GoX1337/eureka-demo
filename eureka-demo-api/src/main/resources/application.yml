@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: spring-cloud-eureka-api
+  jpa:
+    open-in-view: false
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    registry-fetch-interval-seconds: 5
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    preferIpAddress: true
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 5
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
+info:
+  app:
+    name: ${spring.application.name}
+    id: ${eureka.instance.instance-id}
